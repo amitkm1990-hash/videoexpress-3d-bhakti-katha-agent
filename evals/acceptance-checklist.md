@@ -1,32 +1,30 @@
 # Acceptance checklist
 
-Tick each item before calling the video done. Mark items that could not be checked as "not checked" and say why in the report.
+Setup
+- [ ] My AI Images holds all 10 required images (7 singles + 3 groups) by the exact names in CHARACTER_SHEETS.md; no other character was created.
+- [ ] Ratio 16:9, Image Type 3D, Creative mode OFF, Automatically enhance OFF, gallery sharing OFF; checked before every submit.
+- [ ] Ledger written first: 61 rows, each with speaker, spoken-to, census, refs, clip seconds.
 
-## Script
-- [ ] Hook of 3–4 re-used clips plus one new narrator clip, then the story
-- [ ] Setup, the rule, the repeating visit (4 times for 8 minutes), a twist on the last visit, the reveal, a deity-spoken moral, a final gag on the hero
-- [ ] Each visit adds one more food amount, one more guest, one more joke and a different doubt line from the guru
-- [ ] Every D line is 62 characters or fewer; every N line 125 or fewer
-- [ ] Original story, names and lines; nothing copied from the reference video
-- [ ] Deities are reverent, never foolish, greedy, hurt, angry or the target of a joke
+Characters and consistency
+- [ ] Headcount in the start, middle and end frame of every clip equals the ledger census; no twin of Tunnu, Guru, Lakshmi, Shesh, Garud or Vishnu in any frame.
+- [ ] No statue, idol, painting, reflection or poster of any deity; no crowds, no animals, no extra villagers.
+- [ ] Every character matches its saved image (colour, outfit, proportions) from the first clip to the last.
+- [ ] Vishnu has exactly four arms with chakra, conch, lotus and mace; Lakshmi two arms with lotus; Shesh seven hoods with one face; Garud eagle-faced with two wings. Faces kind and dignified.
+- [ ] Scene backgrounds follow the fixed layouts and connect from clip to clip.
 
-## Cast and references
-- [ ] Image Type 3D; every character sheet checked for anatomy and saved with Save Image
-- [ ] Environment references saved; group references for crowded scenes
-- [ ] Set layouts written once and repeated word for word
+Voices and mouths
+- [ ] Every line is spoken by its owner only, addressed to the right on-screen listener, and spoken completely.
+- [ ] In dialogue clips, every non-speaker's mouth is fully closed.
+- [ ] In narrator clips, every character's mouth is fully closed.
+- [ ] Speech at a normal pace; no clip cut mid-sentence.
 
-## Clips
-- [ ] One speaker per dialogue clip; silent listeners in frame with closed mouths
-- [ ] No burned-in captions or watermarks in any clip
-- [ ] No mouth movement in narrator clips
-- [ ] Every line spoken completely by the right character
-- [ ] Backgrounds and looks continuous from clip to clip
-- [ ] Deity faces kind and dignified
+Assembly
+- [ ] Order: reused 4-clip hook → narrator subscribe clip → clips 1–61 from the start, each exactly once.
+- [ ] About half a second between clips; no blank or black frames; no overlapping voices.
+- [ ] Narration voice-over is one consistent warm male voice (or Route B drift reported).
+- [ ] Soft devotional music covers the whole runtime with a fade-out; a chime at each divine arrival.
+- [ ] No subtitles, captions or on-screen text anywhere.
+- [ ] Runtime about 6:00 (5:45–6:15), 16:9, exported MP4 Full HD and opens.
 
-## Assembly
-- [ ] Clips in story order, each once, matched by job or asset ID
-- [ ] About half a second between lines, no blank frames, no overlapping voices
-- [ ] Narrator voice consistent (Route A or B reported)
-- [ ] Hindi subtitles (two lines, bottom centre) or reported as unavailable
-- [ ] Soft music covering the whole video at low volume, fade-out at the end
-- [ ] Auto Align Clips run, project saved, MP4 Full HD exported and opens
+Report
+- [ ] Project name, clip count, measured runtime, narrator route, regenerated clips and why, checks that could not be performed.

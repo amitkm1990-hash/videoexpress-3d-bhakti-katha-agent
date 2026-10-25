@@ -1,45 +1,45 @@
-# VideoExpress Pixar-Style 3D Hindi Bhakti-Katha Agent
+# VideoExpress 3D Bhakti-Katha Agent v2 — "सोते भगवान को जगाने वाला बालक"
 
-A system prompt for producing 8-minute-and-up Hindi devotional story videos in VideoExpress.ai in the format of a popular 3D "Bhakti Katha" channel: Pixar-style 3D characters, golden-light forests and ghats, a warm storyteller narrator, short comic lip-synced dialogue, Hindi subtitles, soft background music, and a funny repeating visit-pattern in which a hungry, innocent child devotee lovingly scolds the gods and finally leads his doubting guru to see them.
+A system prompt, character kit and ready-to-paste clip prompts for producing a 6-minute, 16:9, Pixar-style 3D Hindi bhakti-katha in VideoExpress.ai about Dev Uthani Ekadashi: hungry little Tunnu scolds the Lord who has slept four months, his guru insists "Vishnu ji toh Ekadashi par hi uthenge", then Maa Lakshmi, Shesh Naag and Garud come in turn, and finally Shri Hari wakes.
 
-Format direction comes from a start-to-end study of https://www.youtube.com/watch?v=0gatfAoic-0 (see STYLE_BIBLE.md for what was observed and what could not be, such as audio). The story, characters, setting, numbers and lines in this repo are original.
+Built on `videoexpress-3d-bhakti-katha-agent`, with fixes for the problems seen in earlier videos.
 
-## What changed from the earlier agents
+## What is new in v2
 
-| Topic | 2D devotional kids' agent | This agent |
-| --- | --- | --- |
-| Look | 2D flat-cel chibi, pastel paint | Pixar-style 3D, soft global illumination, golden-light forests, blurred backgrounds |
-| Image Type | 2D | 3D |
-| Voice | No narrator, only on-screen speakers | Narrator voice-over plus one on-screen lip-synced speaker per dialogue clip |
-| Story | Short moral story | Repeating visit pattern with escalation, doubting guru, final reveal, deity-spoken moral |
-| Deities | Only when asked, solo clips | Speaking guests with short reverent lines; never the butt of a joke |
-| Hook | None | 30–40 s teaser re-using finished clips, then a narrator intro |
-| Length | about 6 min | about 8 min default; longer videos split into Parts |
-| Subtitles | Editor text layer | Same; Hindi, white with dark outline, bottom centre |
+| Problem before | Fix here |
+|---|---|
+| Characters changed from clip to clip | Characters come only from images you create once (CHARACTER_SHEETS.md); identity locks are pasted word for word into every prompt |
+| Several copies of one character in one scene | Exact headcount in every prompt, a census check on the start, middle and end frame of every clip, no idols or reflections, no crowds, designed look-alike separation |
+| Gods looked simplified | DEITY_ICONOGRAPHY.md: real traditional forms (Vishnu with four arms, chakra, conch, lotus, mace; Lakshmi with lotus; seven-hooded Shesh Naag; eagle-faced Garud) |
+| Wrong character speaking or listeners moving lips | One owner per line; every non-speaker's mouth closed; every mouth closed during narration |
 
 ## Use
 
-1. Open SYSTEM_PROMPT.md and paste the whole prompt into Claude or another browser-capable agent.
-2. Enable its supported browser control and keep production visible. Sign in to VideoExpress yourself.
-3. Send a topic, deity or moral, or point at the sample script, as shown in examples/example-request.md.
-4. The agent builds characters, references, clips, voice-over, the timeline, then saves and exports.
+1. Create the 10 images in CHARACTER_SHEETS.md yourself in VideoExpress and save them in My AI Images under the exact names.
+2. Paste SYSTEM_PROMPT.md into Claude or another browser-capable agent; keep production visible and sign in to VideoExpress yourself.
+3. Send: "Start production of the bundled story, 16:9, 6 minutes" (examples/example-request.md).
+4. The agent builds the 61 clips from examples/clip-prompts.md, adds the narration, hook, music and export.
 
-## Contents
+## Files
 
 - SYSTEM_PROMPT.md — the production agent prompt
-- STYLE_BIBLE.md — what the reference video looks like and how the format is reproduced
+- CHARACTER_BIBLE.md — identity locks, look-alike rules, dialogue and mouth rules
+- DEITY_ICONOGRAPHY.md — how each god must look
+- CHARACTER_SHEETS.md — prompts for the 7 sheets and 3 group images
+- STYLE_BIBLE.md — look, sound, limits
 - examples/example-request.md — paste-ready requests
-- examples/story-adhaiya-ki-chaturthi.md — an original 96-clip Hindi script "अढ़ैया की चतुर्थी" with story line, cast, set layouts, narration, hook plan, full ledger, sample prompts and a YouTube title and description
-- evals/acceptance-checklist.md — production acceptance checklist
+- examples/story-sote-bhagwan-ko-jagane-wala-balak.md — the original 61-clip Hindi ledger, hook plan, YouTube title and description
+- examples/clip-prompts.md — an image prompt and a video prompt for every clip
+- evals/acceptance-checklist.md — acceptance checklist
 
 ## Known limits
 
-- Audio could not be heard during the study; voice guidance is inferred from captions and frames.
-- VideoExpress clips sometimes carry burned-in garbled captions; the prompt never mentions text and every clip is checked.
-- Only two Reference Photo slots exist, so crowded scenes use group reference images.
-- The account may cap AI clips per day (about 150); long videos are split into Parts.
-- The narrator can be made by editor voice-over (Route A) or inside the clip (Route B); Route B can drift in voice.
+- Audio cannot be heard by the agent; speech is checked by line length against clip seconds.
+- VideoExpress clips can carry burned-in garbled captions; prompts never mention text and every clip is checked.
+- Only two Reference Photo slots exist; scenes with more characters use the speaker and main listener, or a saved group image.
+- Four-armed Vishnu and seven-hooded Shesh Naag can glitch; every clip is checked.
+- The account may cap AI clips per day (about 150).
 
 ## Security
 
-Never put passwords, tokens, API keys, payment data or browser session data in this repository.
+Never put passwords, tokens, API keys or payment data in this repository.

@@ -1,17 +1,13 @@
 # Example requests
 
-## Use the ready script
+## This video
 
-> Follow SYSTEM_PROMPT.md. Make the video from examples/story-adhaiya-ki-chaturthi.md exactly as written: 16:9, Hindi, Pixar-style 3D, about 8 minutes, narrator voice-over, Hindi subtitles, soft background music. Save and export.
+> Topic: "सोते भगवान को जगाने वाला बालक" (Dev Uthani Ekadashi). Use the script in examples/story-sote-bhagwan-ko-jagane-wala-balak.md. 16:9, 6 minutes, Pixar-style 3D, Hindi. My character images are saved in My AI Images (names in CHARACTER_SHEETS.md). Start production.
 
-## New story in the same format
+## A new topic with the same cast
 
-> Follow SYSTEM_PROMPT.md. Topic: a hungry little devotee who keeps calling Hanuman ji and his friends to his roadside chaat stall on Hanuman Jayanti, while his doubting uncle watches. 16:9, about 8 minutes, Hindi.
+> Make another story with Tunnu and Guru Harisharan for Kartik Purnima. 16:9, 6 minutes. Use only my saved character images. Write the ledger first, then produce.
 
-## Longer video in Parts
+## Script only
 
-> Follow SYSTEM_PROMPT.md. Topic: <your topic>. About 20 minutes, split into Parts, same characters in every Part.
-
-## Vertical short
-
-> Follow SYSTEM_PROMPT.md. Topic: <your topic>. 9:16, about 90 seconds, one repeat of the visit pattern only, narrator plus three dialogue clips.
+> Write only the Hindi ledger for Tunnu and the Guru on Basant Panchami. Do not produce yet.
