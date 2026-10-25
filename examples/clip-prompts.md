@@ -2,7 +2,7 @@
 
 Generated from the ledger and the identity locks. For every clip: set Image Type 3D, 16:9, Consistent Character ON, Reference Photo 1 and 2 as listed, Creative mode OFF, Automatically enhance OFF, gallery sharing OFF. Create Image → click a variant → Create Video (Advanced Mode, Manual Video Length as listed). Check the first, middle and last frame of every clip: headcount equals the census, only the speaker's mouth moves, and during narrator clips every mouth is closed.
 
-Narrator clips are silent-action clips; the narration line is added as voice-over in the editor (Route A in SYSTEM_PROMPT.md).
+Narrator clips are silent-action clips; the narration line is made in app.clonevoice.ai (one voice for every narrator line) and added as voice-over in the editor (Route A in SYSTEM_PROMPT.md).
 
 ## Clip 1 — N — Narrator
 

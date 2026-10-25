@@ -11,7 +11,7 @@ This repo inherits the format of `videoexpress-3d-bhakti-katha-agent` (Pixar-sty
 
 ## Sound
 
-- One unseen warm male narrator for the whole video, added as voice-over in the editor.
+- One unseen warm male narrator for the whole video, generated in app.clonevoice.ai (one voice for every line) and added as voice-over in the editor.
 - Distinct voices: Tunnu bright child, Guru calm raspy elder, Lakshmi soft warm female, Vishnu deep calm resonant, Shesh very deep and slow, Garud strong and proud.
 - Speech at a normal conversational pace. Soft devotional instrumental music (flute or strings) under the whole video; light chime at each divine arrival.
 

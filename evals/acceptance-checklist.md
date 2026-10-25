@@ -21,7 +21,7 @@ Voices and mouths
 Assembly
 - [ ] Order: reused 4-clip hook → narrator subscribe clip → clips 1–61 from the start, each exactly once.
 - [ ] About half a second between clips; no blank or black frames; no overlapping voices.
-- [ ] Narration voice-over is one consistent warm male voice (or Route B drift reported).
+- [ ] All narration audio was made in app.clonevoice.ai with one single voice for every narrator line; each file plays its whole line and fits its clip (or Route B was used and reported).
 - [ ] Soft devotional music covers the whole runtime with a fade-out; a chime at each divine arrival.
 - [ ] No subtitles, captions or on-screen text anywhere.
 - [ ] Runtime about 6:00 (5:45–6:15), 16:9, exported MP4 Full HD and opens.
