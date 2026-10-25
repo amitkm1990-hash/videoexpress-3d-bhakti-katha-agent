@@ -4,7 +4,7 @@ These locks are the single source of truth. Paste the lock text for every charac
 
 | Code | Character | Role | Voice |
 |---|---|---|---|
-| N | Narrator (never seen) | storyteller | warm, deep, kind male Hindi storyteller, calm cadence |
+| N | Narrator (never seen) | storyteller | app.clonevoice.ai, language Hindi, voice Neha Verma, calm storytelling cadence |
 | T | Tunnu (टुन्नू) | 7-year-old child hero | bright, cheeky, high child voice |
 | G | Guru Harisharan (गुरुजी) | the guru | calm, slightly raspy elder voice |
 | R | Garud (गरुड़ जी) | divine eagle | strong, proud, clear heroic voice |
