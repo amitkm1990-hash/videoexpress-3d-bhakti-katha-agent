@@ -35,7 +35,7 @@ Daily cap: the account may cap AI clips per day (about 150). This video needs 61
 
 ## 3. Cast, references and consistency protocol
 
-The user has created and saved the character images (CHARACTER_SHEETS.md): seven single sheets (Tunnu, Guru Harisharan, Maa Lakshmi, Lord Vishnu, Shesh Naag, Garud) and group images GR-TG, GR-K and GR-FLIGHT. Verify all 10 exist in My AI Images (set Image Type 3D first; the picker filters by type and paginates with "More"). Do not create characters.
+The user has created and saved the character images (CHARACTER_SHEETS.md): six single sheets (Tunnu, Guru Harisharan, Maa Lakshmi, Lord Vishnu, Shesh Naag, Garud) and group images GR-TG, GR-K and GR-FLIGHT. Verify all 10 exist in My AI Images (set Image Type 3D first; the picker filters by type and paginates with "More"). Do not create characters.
 
 Reference slots (two only), per ledger row:
 

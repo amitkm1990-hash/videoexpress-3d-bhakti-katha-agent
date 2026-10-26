@@ -4,7 +4,7 @@ Create these images in VideoExpress yourself (Create Image → Image Type **3D**
 
 Quality checks for every sheet before saving: one head; correct number of arms (Vishnu exactly four, Lakshmi two, Garud two plus two wings, Shesh seven hoods); the face is kind and dignified; the outfit and colours match the lock text; plain background. Deities must match the real traditional form in DEITY_ICONOGRAPHY.md. If a variant is wrong, generate again.
 
-Ratio: 16:9 for every sheet. Create in this order: the seven single sheets first, then the three group images (group images are made after the singles, using the saved singles as Reference Photo 1 and 2 where only two characters are involved).
+Ratio: 16:9 for every sheet. Create in this order: the six single sheets first, then the three group images (group images are made after the singles, using the saved singles as Reference Photo 1 and 2 where only two characters are involved).
 
 ## A. Single character sheets
 
@@ -94,4 +94,10 @@ Wide image on a plain background: Garud flying with wings spread and body horizo
 
 ## C. Final check before production
 
-My AI Images must now contain exactly these 10 images (7 singles + 3 groups). Tell the agent they are ready, and it begins production.
+My AI Images must now contain exactly these 9 images (6 singles + 3 groups). Tell the agent they are ready, and it begins production.
+
+## Field notes (from a real run)
+
+- **Shesh Naag as actually saved:** BLACK serpent with cobra (snake) faces, not human faces, three hoods with a crowned centre hood. Earlier text above that says silver-white, seven hoods and one human face is superseded. The model reliably gives 3 hoods, not 5 or 7; record the hood count in the report.
+- **Lord Vishnu as saved:** four arms (chakra, conch, lotus); the mace may lie on the ground instead of being held. Record this in the report.
+- **Group images on plain white do not work** when two character sheets are used as references: the model copies the 3-view sheet layout and duplicates a character. Use a scene prompt (real location, "exactly N characters, each once, no character sheet, no multiple views") with the speaker and main listener sheets as references instead; this keeps characters consistent.

@@ -15,7 +15,7 @@ Built on `videoexpress-3d-bhakti-katha-agent`, with fixes for the problems seen 
 
 ## Use
 
-1. Create the 10 images in CHARACTER_SHEETS.md yourself in VideoExpress and save them in My AI Images under the exact names.
+1. Create the 9 images in CHARACTER_SHEETS.md yourself in VideoExpress and save them in My AI Images under the exact names.
 2. Paste SYSTEM_PROMPT.md into Claude or another browser-capable agent; keep production visible and sign in to VideoExpress yourself.
 3. Send: "Start production of the bundled story, 16:9, 6 minutes" (examples/example-request.md).
 4. Narration audio is made in app.clonevoice.ai (sign in there yourself): language Hindi, voice Neha Verma, the same voice for every narrator line.
