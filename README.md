@@ -10,7 +10,7 @@ Built on `videoexpress-3d-bhakti-katha-agent`, with fixes for the problems seen 
 |---|---|
 | Characters changed from clip to clip | Characters come only from images you create once (CHARACTER_SHEETS.md); identity locks are pasted word for word into every prompt |
 | Several copies of one character in one scene | Exact headcount in every prompt, a census check on the start, middle and end frame of every clip, no idols or reflections, no crowds, designed look-alike separation |
-| Gods looked simplified | DEITY_ICONOGRAPHY.md: real traditional forms (Vishnu with four arms, chakra, conch, lotus, mace; Lakshmi with lotus; seven-hooded Shesh Naag; eagle-faced Garud) |
+| Gods looked simplified | DEITY_ICONOGRAPHY.md: real traditional forms (Vishnu with four arms, chakra, conch, lotus, mace; Lakshmi with lotus; Shesh Naag (see FIELD_NOTES.md for the real hood count); eagle-faced Garud) |
 | Wrong character speaking or listeners moving lips | One owner per line; every non-speaker's mouth closed; every mouth closed during narration |
 
 ## Use
@@ -38,7 +38,7 @@ Built on `videoexpress-3d-bhakti-katha-agent`, with fixes for the problems seen 
 - Audio cannot be heard by the agent; speech is checked by line length against clip seconds.
 - VideoExpress clips can carry burned-in garbled captions; prompts never mention text and every clip is checked.
 - Only two Reference Photo slots exist; scenes with more characters use the speaker and main listener, or a saved group image.
-- Four-armed Vishnu and seven-hooded Shesh Naag can glitch; every clip is checked.
+- Four-armed Vishnu and Shesh Naag (see FIELD_NOTES.md for the real hood count) can glitch; every clip is checked.
 - The account may cap AI clips per day (about 150).
 
 ## Security
