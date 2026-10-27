@@ -37,3 +37,14 @@ These notes override older text in the other files where they disagree.
 - Narration Video (Choose my Audio) is 9:16 only, and clonevoice Voice Changer has no Hindi voices. So dialogue clips are generated with native speech, muted on the timeline, and the character's clonevoice audio is placed on the audio track.
 - Importing clonevoice audio: payload is an array of {id,uuid,src,title} with actionPath `voice_clone/generated_audio_import`; items land in "My CloneVoice.ai Audio".
 - Timeline: hooks first, then clips 1..N in order; video track volume 0, audio track starts at the clip's start.
+
+## Bhai Dooj run — lipsync fix: single-speaker audio-driven clips (added 2026-10-27)
+- With several characters in a shot, native speech / audio-driven video animates only the leftmost character (the wrong mouth moves, e.g. Acharya's line spoken by Jamuni). Fix: every dialogue clip is a separate single-character shot, so the speaker is the only face on screen.
+- Audio-driven method that works at 16:9: `image2video` with `audioMediaId` = the character's clonevoice audio (library id from "My CloneVoice.ai Audio"), `isNarrationVideo:'1'`, `videoLength` = ceil(audio seconds), `aspect:'16:9'`. The supplied audio is embedded in the video, so no separate audio brick is needed; keep the brick volume at 100. Narrator clips stay silent video (volume 0) plus the Narrator audio brick.
+- Per-clip workflow: character image alone (rotate village settings) -> `save_generated_image` -> `image2video`. Speaker comes from the clip's heading ("— N — Narrator" = narrator clip).
+- "Multiple videos in progress" means 5 are rendering. A submit that was accepted is not finished: poll `ai/api/status/<uuid>` for every uuid, not just the ones you track. Wait for slots and retry.
+- Do not write "no text / no subtitles / no captions" in audio-driven prompts: the model sometimes prints that wording as a burned-in garbled caption. Omit it; if captions still appear, regenerate the clip (the fix-subtitles endpoint does not support "Create Video From Prompt" clips). Check each clip at ~2 s and ~3.5 s for captions.
+- Magic/sparkle/"divine guests" wording makes the video model add extra people mid-clip (clip 46 got extra girls). Use a static, calm prompt: "exactly three characters stand in place, fold hands, no one enters the frame".
+- A new CDN file can return 404 for 1-2 minutes after status SUCCEEDED; overlays with many `<video>` tags slow the editor page, so remove them before bulk timeline edits.
+- Timeline rebuild: `brickItemsCollection.remove(models)` clears, then `onMediaTimelineDropped` with track model `trackItemsCollection.get('30')` for video and `get('32')` for audio, left = ms*0.005. After Save, a "Unable to update timeline videos" confirm may show if a clip is not on the CDN yet; click Yes and Save again.
+- Export: Export Video -> FullHD / mp4 / High -> Create; it is queued and appears under My Videos.
