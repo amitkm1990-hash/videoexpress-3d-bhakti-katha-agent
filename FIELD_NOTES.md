@@ -29,3 +29,11 @@ These notes override older text in the other files where they disagree.
 - VideoExpress does not ask for a name when saving an image; recognise images by thumbnail and by order (newest first). In the reference picker, open the My AI Images folder with a single click, then scroll; selecting an image and pressing Choose fills the slot.
 - Narrator clips: tick Advanced Mode, **Video Only (No Sound)** and **Manual Video Length**, and keep Automatically enhance my video prompt OFF.
 - Image variants can take 60 to 90 s to appear; wait, do not resubmit.
+
+## Bhai Dooj run — production learnings (added 2026-10-27)
+- Group reference images: for 3+ characters including Jamuni+Bholu, upload a DUO (Jamuni+Bholu) reference plus the third character's single; for 5 characters use [DUO, TRIO]. This keeps outfits correct and avoids duplicate look-alikes.
+- Video queue: keep at most 5 videos in progress; "Error. Please try again later" is a rate/queue error — wait ~25 s and resubmit.
+- Review every image before making its video; reject extra tiny people, duplicated characters and prop leakage, then regenerate that clip's image.
+- Narration Video (Choose my Audio) is 9:16 only, and clonevoice Voice Changer has no Hindi voices. So dialogue clips are generated with native speech, muted on the timeline, and the character's clonevoice audio is placed on the audio track.
+- Importing clonevoice audio: payload is an array of {id,uuid,src,title} with actionPath `voice_clone/generated_audio_import`; items land in "My CloneVoice.ai Audio".
+- Timeline: hooks first, then clips 1..N in order; video track volume 0, audio track starts at the clip's start.
