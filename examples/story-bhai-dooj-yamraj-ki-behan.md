@@ -14,11 +14,11 @@ Jamuni, like Yamuna ji, comes to save her brother from Yamraj → the Acharya do
 
 | Code | Name used in ledger and prompts | Reference image used in every clip | 3-view sheet (look reference only) | Voice for dialogue |
 |---|---|---|---|---|
-| J | Jamuni (जमुनी) | `JAMUNI - Single` | `JAMUNI - Sheet` | sweet, bright, brave little girl |
-| B | Bholu (भोलू) | `BHOLU - Single` | `BHOLU - Sheet` | playful, cheeky young boy |
-| A | Acharya Somdutt (आचार्य सोमदत्त) | `ACHARYA SOMDUTT - Single` | `ACHARYA SOMDUTT - Sheet` | gruff, booming, slightly pompous elder |
-| C | Chitragupt ji (चित्रगुप्त जी) | `CHITRAGUPT - Single` | `CHITRAGUPT - Sheet` | quick, polite, courteous middle-aged |
-| Y | Yamraj ji (यमराज जी) | `YAMRAJ - Single` | `YAMRAJ - Sheet` | very deep, slow, grave yet kind |
+| J | Jamuni (जमुनी) | `JAMUNI - Single` | `JAMUNI - Sheet` | sweet, bright, brave little girl (clonevoice Hindi, Priya Mehra) |
+| B | Bholu (भोलू) | `BHOLU - Single` | `BHOLU - Sheet` | playful, cheeky young boy (clonevoice Hindi, Aditya Gupta) |
+| A | Acharya Somdutt (आचार्य सोमदत्त) | `ACHARYA SOMDUTT - Single` | `ACHARYA SOMDUTT - Sheet` | gruff, booming, slightly pompous elder (clonevoice Hindi, Rajesh Malhotra) |
+| C | Chitragupt ji (चित्रगुप्त जी) | `CHITRAGUPT - Single` | `CHITRAGUPT - Sheet` | quick, polite, courteous middle-aged (clonevoice Hindi, Varun Mehta) |
+| Y | Yamraj ji (यमराज जी) | `YAMRAJ - Single` | `YAMRAJ - Sheet` | very deep, slow, grave yet kind (clonevoice Hindi, Vikram Khanna) |
 | N | Narrator (never seen) | - | - | app.clonevoice.ai, language Hindi, voice Neha Verma |
 
 ## Fixed rules for this script

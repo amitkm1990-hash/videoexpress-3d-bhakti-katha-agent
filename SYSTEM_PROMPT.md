@@ -146,3 +146,9 @@ When the user asks to update this repository for a new topic, **add** the new pa
 - Never use a 3-view character sheet as Reference Photo 1 or 2: the model copies it and draws the character several times. Create a **single-pose image** of every character (CHARACTER_SHEETS.md, "single-pose reference images") and use only those as references; the 3-view sheet is for checking looks.
 - Every image prompt with two or more characters includes the sentence "Each named character appears exactly once (...); there is no second copy, no twin and no look-alike of any character, no character sheet and no multiple views of the same person."
 - If an image still shows a duplicate, regenerate; do not use it for a video.
+
+### 10.7 Every character has a clonevoice voice (added)
+
+- Each character is assigned one voice from app.clonevoice.ai (language Hindi) in the registry. That voice is the only voice used for that character's dialogue; narration uses Neha Verma.
+- Bhai Dooj pack: Jamuni = Priya Mehra, Bholu = Aditya Gupta, Acharya Somdutt = Rajesh Malhotra, Chitragupt ji = Varun Mehta, Yamraj ji = Vikram Khanna, Narrator = Neha Verma. Swap a voice only by editing the registry first.
+- Production: create each dialogue line as audio in clonevoice with the owner's voice, then attach it to that character's clip in the editor. The video model's own voice is not used for dialogue.

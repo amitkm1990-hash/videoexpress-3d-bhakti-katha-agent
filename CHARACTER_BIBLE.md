@@ -92,11 +92,11 @@ The locks above belong to the Dev Uthani pack and are unchanged. This pack has i
 | Code | Character name (used everywhere) | Role | Voice |
 |---|---|---|---|
 | N | Narrator (never seen) | storyteller | app.clonevoice.ai, language Hindi, voice Neha Verma, calm storytelling cadence |
-| J | Jamuni (जमुनी) | 7-year-old little-sister hero | sweet, bright, brave little girl |
-| B | Bholu (भोलू) | 10-year-old elder brother | playful, cheeky young boy |
-| A | Acharya Somdutt (आचार्य सोमदत्त) | the doubting guru | gruff, booming, slightly pompous elder |
-| C | Chitragupt ji (चित्रगुप्त जी) | scribe of the gods, first guest | quick, polite, courteous middle-aged |
-| Y | Yamraj ji (यमराज जी) | god of death, second and main guest | very deep, slow, grave yet kind |
+| J | Jamuni (जमुनी) | 7-year-old little-sister hero | sweet, bright, brave little girl (clonevoice Hindi, Priya Mehra) |
+| B | Bholu (भोलू) | 10-year-old elder brother | playful, cheeky young boy (clonevoice Hindi, Aditya Gupta) |
+| A | Acharya Somdutt (आचार्य सोमदत्त) | the doubting guru | gruff, booming, slightly pompous elder (clonevoice Hindi, Rajesh Malhotra) |
+| C | Chitragupt ji (चित्रगुप्त जी) | scribe of the gods, first guest | quick, polite, courteous middle-aged (clonevoice Hindi, Varun Mehta) |
+| Y | Yamraj ji (यमराज जी) | god of death, second and main guest | very deep, slow, grave yet kind (clonevoice Hindi, Vikram Khanna) |
 
 ## Identity locks (Bhai Dooj pack)
 
