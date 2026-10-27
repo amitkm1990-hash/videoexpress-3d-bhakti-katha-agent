@@ -105,3 +105,38 @@ Project name, ratio, style, language, clip count, measured runtime, narrator rou
 ## 9. Pause only when
 
 The user stops you; sign-in or CAPTCHA needs the user; a required saved character image is missing; a binding agreement needs confirmation; a purchase, upgrade, new provider, public publication or deletion is required; or a concrete blocker remains after bounded recovery. Ask only for the specific missing action, keep finished work, and give recovery steps.
+
+## 10. Topic packs and the rules that apply to every new topic (added)
+
+Sections 0–9 describe the bundled "सोते भगवान को जगाने वाला बालक" pack and stay exactly as they are. Every new topic is added as its own pack (story file, clip prompts, locks and sheet prompts) in this repository; **nothing from earlier packs is removed**. The first added pack is "भैया दूज पर यमराज की बहन" (examples/story-bhai-dooj-yamraj-ki-behan.md, examples/clip-prompts-bhai-dooj.md).
+
+### 10.1 Order of work for a new topic
+
+1. Write the cast and the **character name registry** (10.2), then a **character sheet prompt for every character** (CHARACTER_SHEETS.md) and the identity locks (CHARACTER_BIBLE.md).
+2. Write the ledger (story file), then an **image prompt for every clip**.
+3. Write a **video prompt for every clip** that names the speaker, so each character speaks only their own dialogue.
+4. Start production: create and save the character sheets in My AI Images, then generate every clip's image and video with exactly those prompts, check, assemble, save and export.
+
+### 10.2 Character names are fixed and own their dialogue
+
+- Every character has one fixed name, written in the registry table of the story file and in CHARACTER_BIBLE.md. The same name is used in the ledger "Speaker" column, the saved image name, the image prompt, and the video prompt.
+- A video prompt always says "<Name> says in Hindi to <Name>: \"<line>\"", then "Only <Name>'s mouth moves", then names every listener with a closed mouth. Never write "he", "she", "the girl" or "the elder" in place of a name in these sentences, and never rename a character.
+- Whoever the ledger names as Speaker is the only one who speaks that line. If the wrong character speaks, or a listener's lips move, the clip is rejected and regenerated.
+
+### 10.3 Consistency and no look-alike copies
+
+- Use only the images saved in My AI Images. Never invent, redraw or alter a character. A new pack's cast must differ in colour, height and silhouette from the characters of earlier packs, and earlier characters are not reused unless the user asks.
+- Write "Exactly N characters in the image, each appearing once, nobody else" in every image and video prompt, with N from the ledger census. Never two copies of the same character in one frame. No statues, idols, reflections, crowds, extra villagers or animals.
+- Count heads in the first, middle and last frame of every clip. A duplicate means the clip is regenerated (simpler pose, "X is the only person in the image" for solos, or a listener moved to the frame edge).
+- Group images on plain white do not work (FIELD_NOTES.md). For scenes with three or more characters use the speaker's sheet and the main listener's sheet as Reference Photo 1 and 2 and name the others in the prompt with their locks.
+- Never write subtitle, caption or text words in a video prompt (FIELD_NOTES.md).
+
+### 10.4 Subscribe line and comment line
+
+- The video opens with the reused hook, then **narrator clip 1: subscribe**, then **narrator clip 2: the comment line**, then the story clips from the start. Each is its own narrator clip of at most 90 characters, in the same Neha Verma voice.
+- The comment line asks viewers to write the greeting of the god the video is about, using that god's name: "और कमेंट में 'जय <देवता का नाम>' लिखना न भूलिए।" Examples: video on Ram → "जय श्री राम"; Hanuman → "जय श्री हनुमान"; Vishnu → "जय श्री हरि"; Krishna → "जय श्री कृष्णा"; Shiv → "हर हर महादेव"; Ganesh → "गणपति बप्पा मोरया"; Durga → "जय माता दी"; Bhai Dooj → "जय यमुना मैया, जय यमराज जी". For a topic with several gods, name the main one or two.
+- In Sections 4 and 7 and in the acceptance checklist, "hook → subscribe clip → clips from the start" therefore reads "hook → subscribe clip → comment-line clip → clips from the start" for every new pack. The bundled Dev Uthani script keeps its original clip 1; if it is rebuilt, add a comment-line clip with "जय श्री हरि" after it.
+
+### 10.5 Repository updates
+
+When the user asks to update this repository for a new topic, **add** the new pack and the new rules; never delete or rewrite earlier packs, files or rules.

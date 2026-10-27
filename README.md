@@ -44,3 +44,20 @@ Built on `videoexpress-3d-bhakti-katha-agent`, with fixes for the problems seen 
 ## Security
 
 Never put passwords, tokens, API keys or payment data in this repository.
+
+## Topic packs (added)
+
+Each topic is a pack that sits next to the earlier ones; nothing is removed.
+
+| Pack | Story file | Clip prompts | Cast |
+|---|---|---|---|
+| सोते भगवान को जगाने वाला बालक (Dev Uthani Ekadashi) | examples/story-sote-bhagwan-ko-jagane-wala-balak.md | examples/clip-prompts.md | Tunnu, Guru Harisharan, Maa Lakshmi, Shesh Naag, Garud, Lord Vishnu |
+| भैया दूज पर यमराज की बहन (Bhai Dooj, 11 Nov 2026) | examples/story-bhai-dooj-yamraj-ki-behan.md | examples/clip-prompts-bhai-dooj.md | Jamuni, Bholu, Acharya Somdutt, Chitragupt ji, Yamraj ji |
+
+What the Bhai Dooj update adds:
+
+- Character name registry: every character has one fixed name that is used in the ledger, the saved image, the image prompt and the video prompt, so each dialogue is spoken only by its owner.
+- Consistency rules: exact head count in every prompt, no duplicate of any character in a frame, new cast that cannot be confused with earlier casts.
+- Prompts in order: character sheet prompts (CHARACTER_SHEETS.md), then an image prompt and a video prompt for every clip.
+- After the subscribe clip, a comment-line clip asks viewers to write the greeting of the video's god (for example "जय श्री राम" for a Ram story).
+- See SYSTEM_PROMPT.md Section 10.

@@ -24,3 +24,18 @@ Reverence rules
 - No deity is mocked, made foolish, greedy, hurt, angry or the butt of a joke. A deity may smile or laugh warmly. The comedy comes from Tunnu's loving scolding, the Guru's disbelief and the running "Ekadashi par hi uthenge" refrain.
 - The sleeping Vishnu keeps eyes and mouth closed until the awakening clip.
 - Nothing sacred (tulsi, conch, lotus, chakra) gets a gag.
+
+---
+
+## Added for the Bhai Dooj pack
+
+| Deity | Must have | Must not have |
+|---|---|---|
+| **Yamraj ji (Lord Yama)** | Deep dark blue-green complexion; dignified, kind face with large calm eyes and a thick black moustache; tall golden crown with two small curved horns; crimson-red royal robe with golden border; golden shoulder armour and jewellery; golden danda (staff) in the right hand and the left hand raised in blessing; **two arms** in the simplified cartoon form. Shown as a respected, gentle guest. | Noose or weapon pointed at anyone, a scary, angry or demonic face, a buffalo in frame, skulls, fire, a second Yamraj |
+| **Chitragupt ji** | Slim middle-aged scribe; wheatish skin; round kind face with a thin black moustache; tall yellow-and-white turban; yellow kurta with a white dhoti and shoulder-cloth; a thick red cloth-bound ledger (bahi-khata) in the left hand and a long feather pen in the right; gold earrings; **two arms**. | Comic or sinister look, a second ledger-holder, a crowd of clerks |
+
+Reverence rules for this pack
+
+- Yamraj ji and Chitragupt ji are honoured guests. Neither is mocked, made foolish, greedy, angry or the butt of a joke. They smile warmly. The comedy comes from Jamuni's loving bossiness, Bholu's love of sweets and Acharya Somdutt's disbelief.
+- No scary death imagery anywhere; the story is about a sister's love and the blessing of Bhai Dooj.
+- Nothing sacred (tilak, diya, thali, ledger, danda) gets a gag.

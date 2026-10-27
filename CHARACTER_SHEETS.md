@@ -101,3 +101,53 @@ My AI Images must now contain exactly these 9 images (6 singles + 3 groups). Tel
 - **Shesh Naag as actually saved:** BLACK serpent with cobra (snake) faces, not human faces, three hoods with a crowned centre hood. Earlier text above that says silver-white, seven hoods and one human face is superseded. The model reliably gives 3 hoods, not 5 or 7; record the hood count in the report.
 - **Lord Vishnu as saved:** four arms (chakra, conch, lotus); the mace may lie on the ground instead of being held. Record this in the report.
 - **Group images on plain white do not work** when two character sheets are used as references: the model copies the 3-view sheet layout and duplicates a character. Use a scene prompt (real location, "exactly N characters, each once, no character sheet, no multiple views") with the speaker and main listener sheets as references instead; this keeps characters consistent.
+
+---
+
+# Bhai Dooj pack — character sheet prompts (added)
+
+Create these 5 images yourself in VideoExpress (Create Image → Image Type **3D** → 16:9 → Creative mode OFF → "Automatically enhance my image prompt" OFF → "Share in public gallery" OFF). Each Create Image gives 2 variants: click one, then save it with the carousel **Save Image** button so it lands in **My AI Images** under the exact name shown. The agent uses **only** these saved images and never invents a character.
+
+Check each sheet before saving: one head per drawing, two arms and two hands, outfit and colours match the lock, plain white background, dignified kind face for Yamraj ji and Chitragupt ji (see DEITY_ICONOGRAPHY.md). Regenerate if wrong. **No group images are used in this pack** (group images on plain white duplicate characters, see FIELD_NOTES.md); scenes with 3 or more characters use the speaker's sheet and the main listener's sheet as references and name the others with their locks.
+
+### J. Jamuni
+
+Save as: `JAMUNI - Sheet`
+
+```
+Character design sheet on a plain white background, the same character shown three times in one row: full-body front view, full-body three-quarter view, full-body side view. Pixar-style 3D animated film frame, soft global illumination, shallow depth of field with a creamy blurred background, rich saturated colour, detailed cloth and jewellery, big-eyed expressive faces. Jamuni: a 7-year-old Indian girl in chibi proportions (head about 40% of body height), huge round glossy dark-brown eyes with highlights, round cheeks, small nose, a small red bindi, two long black braids tied with marigold-orange ribbons, turquoise-blue lehenga-choli with a thin silver border and a matching turquoise dupatta, silver bangles and silver anklets, bare feet, exactly two arms and two hands. Exactly one character, drawn three times, identical outfit and face in all three views. No text, no labels, no logo.
+```
+
+### B. Bholu
+
+Save as: `BHOLU - Sheet`
+
+```
+Character design sheet on a plain white background, the same character shown three times in one row: full-body front view, full-body three-quarter view, full-body side view. Pixar-style 3D animated film frame, soft global illumination, shallow depth of field with a creamy blurred background, rich saturated colour, detailed cloth and jewellery, big-eyed expressive faces. Bholu: a 10-year-old Indian boy in chibi proportions (head about 35% of body height, a little taller than Jamuni), huge round glossy brown eyes with highlights, round cheeks, short messy black hair, bright mustard-yellow kurta with a brown border, cream pyjama-style trousers, a thin red kalawa thread on the right wrist, bare feet, exactly two arms and two hands. Exactly one character, drawn three times, identical outfit and face in all three views. No text, no labels, no logo.
+```
+
+### A. Acharya Somdutt
+
+Save as: `ACHARYA SOMDUTT - Sheet`
+
+```
+Character design sheet on a plain white background, the same character shown three times in one row: full-body front view, full-body three-quarter view, full-body side view. Pixar-style 3D animated film frame, soft global illumination, shallow depth of field with a creamy blurred background, rich saturated colour, detailed cloth and jewellery, big-eyed expressive faces. Acharya Somdutt: a stout elderly Indian guru, normal adult proportions, bald head with a small white topknot (choti), thick round black-rimmed glasses, bushy white moustache and a short white beard, maroon kurta with a cream shoulder-cloth, white dhoti, a rudraksha mala around the neck, wooden sandals, exactly two arms and two hands. Exactly one character, drawn three times, identical outfit and face in all three views. No text, no labels, no logo.
+```
+
+### C. Chitragupt ji
+
+Save as: `CHITRAGUPT - Sheet`
+
+```
+Character design sheet on a plain white background, the same character shown three times in one row: full-body front view, full-body three-quarter view, full-body side view. Pixar-style 3D animated film frame, soft global illumination, shallow depth of field with a creamy blurred background, rich saturated colour, detailed cloth and jewellery, big-eyed expressive faces. Chitragupt ji: a slim middle-aged Indian scribe-deity, normal adult proportions, wheatish skin, kind round face with a thin black moustache, a tall yellow-and-white turban, yellow kurta with a white dhoti and a white shoulder-cloth, a thick red cloth-bound ledger (bahi-khata) held in his left hand and a long feather pen in his right hand, gold earrings, exactly two arms and two hands. Exactly one character, drawn three times, identical outfit and face in all three views. No text, no labels, no logo.
+```
+
+### Y. Yamraj ji
+
+Save as: `YAMRAJ - Sheet`
+
+```
+Character design sheet on a plain white background, the same character shown three times in one row: full-body front view, full-body three-quarter view, full-body side view. Pixar-style 3D animated film frame, soft global illumination, shallow depth of field with a creamy blurred background, rich saturated colour, detailed cloth and jewellery, big-eyed expressive faces. Yamraj ji (Lord Yama): deity in traditional devotional-poster form, adult proportions, deep dark blue-green complexion, dignified kind face with large calm eyes and a thick black moustache, tall golden crown with two small curved horns, crimson-red royal robe with a golden border, golden shoulder armour, gold necklace, armlets and bracelets, a golden danda (staff) in his right hand and his left hand raised in blessing (abhaya mudra), exactly two arms and two hands, no noose, no weapon pointed at anyone, no buffalo in the frame. Exactly one character, drawn three times, identical outfit and face in all three views. No text, no labels, no logo.
+```
+
+Final check before production: My AI Images holds these 5 images by the exact names above (plus the images of earlier packs, which stay untouched). Tell the agent they are ready and it begins production.

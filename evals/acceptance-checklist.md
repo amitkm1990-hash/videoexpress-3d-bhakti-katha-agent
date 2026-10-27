@@ -28,3 +28,14 @@ Assembly
 
 Report
 - [ ] Project name, clip count, measured runtime, narrator route, regenerated clips and why, checks that could not be performed.
+
+## Bhai Dooj pack (added)
+
+- [ ] My AI Images holds the 5 sheets of this pack by the exact names in CHARACTER_SHEETS.md (JAMUNI, BHOLU, ACHARYA SOMDUTT, YAMRAJ, CHITRAGUPT); no other character was created.
+- [ ] Ledger written first: 48 rows with speaker, spoken-to, census, refs and clip seconds; every video prompt names its speaker.
+- [ ] Head count in the first, middle and last frame of every clip equals the census; no twin of Jamuni, Bholu, Acharya Somdutt, Chitragupt ji or Yamraj ji; no buffalo, statue or crowd.
+- [ ] Every line is spoken only by its named owner; every other mouth is closed; in narrator clips every mouth is closed.
+- [ ] Yamraj ji and Chitragupt ji are dignified and kind, matching their saved images; no scary death imagery.
+- [ ] Order: reused 4-clip hook → narrator subscribe clip → narrator comment-line clip ("जय यमुना मैया, जय यमराज जी") → clips 3–48 from the start, each exactly once.
+- [ ] Narration made in app.clonevoice.ai, Hindi, voice Neha Verma, for every narrator line.
+- [ ] No subtitles, captions or on-screen text; soft music covers the whole video; runtime about 6 minutes, exported 16:9 MP4 Full HD.
