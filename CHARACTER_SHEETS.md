@@ -151,3 +151,51 @@ Character design sheet on a plain white background, the same character shown thr
 ```
 
 Final check before production: My AI Images holds these 5 images by the exact names above (plus the images of earlier packs, which stay untouched). Tell the agent they are ready and it begins production.
+
+## Bhai Dooj pack: single-pose reference images (use these as Reference Photo 1 and 2)
+
+A 3-view sheet used as a reference makes the image model copy the sheet and draw the same character two or three times in one scene (seen in the first Bhai Dooj test: two Jamunis next to Bholu). So each character also gets a **single-pose image** (exactly one figure). The single-pose image is the reference used in every clip; the 3-view sheet stays only as a look reference.
+
+Create each one with Consistent Character **OFF** (text only), Image Type 3D, 16:9, Creative mode OFF, Automatically enhance OFF, gallery sharing OFF, then **Save Image**. Name them `<NAME> - Single`. The library shows the prompt text as the title, so recognise them by the thumbnail (one figure on white).
+
+### J. Jamuni
+
+Save as: `JAMUNI - Single`
+
+```
+One single character standing alone: exactly one figure in the whole image, one full-body front view only, on a plain white background. Pixar-style 3D animated film frame, soft global illumination, rich saturated colour, detailed cloth and jewellery, big-eyed expressive face. Jamuni: a 7-year-old Indian girl in chibi proportions (head about 40% of body height), huge round glossy dark-brown eyes with highlights, round cheeks, small nose, a small red bindi, two long black braids tied with marigold-orange ribbons, turquoise-blue lehenga-choli with a thin silver border and a matching turquoise dupatta, silver bangles and silver anklets, bare feet, exactly two arms and two hands. Exactly one person in the image, no second copy, no twin, no character sheet, no multiple views, no text, no labels, no logo.
+```
+
+### B. Bholu
+
+Save as: `BHOLU - Single`
+
+```
+One single character standing alone: exactly one figure in the whole image, one full-body front view only, on a plain white background. Pixar-style 3D animated film frame, soft global illumination, rich saturated colour, detailed cloth and jewellery, big-eyed expressive face. Bholu: a 10-year-old Indian boy in chibi proportions (head about 35% of body height, a little taller than Jamuni), huge round glossy brown eyes with highlights, round cheeks, short messy black hair, bright mustard-yellow kurta with a brown border, cream pyjama-style trousers, a thin red kalawa thread on the right wrist, bare feet, exactly two arms and two hands. Exactly one person in the image, no second copy, no twin, no character sheet, no multiple views, no text, no labels, no logo.
+```
+
+### A. Acharya Somdutt
+
+Save as: `ACHARYA SOMDUTT - Single`
+
+```
+One single character standing alone: exactly one figure in the whole image, one full-body front view only, on a plain white background. Pixar-style 3D animated film frame, soft global illumination, rich saturated colour, detailed cloth and jewellery, big-eyed expressive face. Acharya Somdutt: a stout elderly Indian guru, normal adult proportions, bald head with a small white topknot (choti), thick round black-rimmed glasses, bushy white moustache and a short white beard, maroon kurta with a cream shoulder-cloth, white dhoti, a rudraksha mala around the neck, wooden sandals, exactly two arms and two hands. Exactly one person in the image, no second copy, no twin, no character sheet, no multiple views, no text, no labels, no logo.
+```
+
+### C. Chitragupt ji
+
+Save as: `CHITRAGUPT - Single`
+
+```
+One single character standing alone: exactly one figure in the whole image, one full-body front view only, on a plain white background. Pixar-style 3D animated film frame, soft global illumination, rich saturated colour, detailed cloth and jewellery, big-eyed expressive face. Chitragupt ji: a slim middle-aged Indian scribe-deity, normal adult proportions, wheatish skin, kind round face with a thin black moustache, a tall yellow-and-white turban, yellow kurta with a white dhoti and a white shoulder-cloth, a thick red cloth-bound ledger (bahi-khata) held in his left hand and a long feather pen in his right hand, gold earrings, exactly two arms and two hands. Exactly one person in the image, no second copy, no twin, no character sheet, no multiple views, no text, no labels, no logo.
+```
+
+### Y. Yamraj ji
+
+Save as: `YAMRAJ - Single`
+
+```
+One single character standing alone: exactly one figure in the whole image, one full-body front view only, on a plain white background. Pixar-style 3D animated film frame, soft global illumination, rich saturated colour, detailed cloth and jewellery, big-eyed expressive face. Yamraj ji (Lord Yama): deity in traditional devotional-poster form, adult proportions, deep dark blue-green complexion, dignified kind face with large calm eyes and a thick black moustache, tall golden crown with two small curved horns, crimson-red royal robe with a golden border, golden shoulder armour, gold necklace, armlets and bracelets, a golden danda (staff) in his right hand and his left hand raised in blessing (abhaya mudra), exactly two arms and two hands, no noose, no weapon pointed at anyone, no buffalo in the frame. Exactly one person in the image, no second copy, no twin, no character sheet, no multiple views, no text, no labels, no logo.
+```
+
+Check: one figure, one head, matches the lock. Regenerate if two figures appear.

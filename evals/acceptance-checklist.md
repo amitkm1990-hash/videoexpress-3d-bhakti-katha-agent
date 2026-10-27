@@ -39,3 +39,4 @@ Report
 - [ ] Order: reused 4-clip hook → narrator subscribe clip → narrator comment-line clip ("जय यमुना मैया, जय यमराज जी") → clips 3–48 from the start, each exactly once.
 - [ ] Narration made in app.clonevoice.ai, Hindi, voice Neha Verma, for every narrator line.
 - [ ] No subtitles, captions or on-screen text; soft music covers the whole video; runtime about 6 minutes, exported 16:9 MP4 Full HD.
+- [ ] My AI Images also holds the 5 single-pose images (`<NAME> - Single`); only these are used as Reference Photo 1 and 2, never the 3-view sheets.

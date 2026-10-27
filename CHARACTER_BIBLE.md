@@ -147,3 +147,5 @@ Yamraj ji (Lord Yama): deity in traditional devotional-poster form, adult propor
 - Exactly one head per character per frame; the census in the ledger row is written into every image prompt as "Exactly N characters in the image, each appearing once, nobody else".
 - No buffalo, no statues, no extra villagers, no crowd, no second Yamraj, no second Chitragupt, no reflection or shadow figure of any deity.
 - Every line has one owner; every other mouth is fully closed; during narrator clips every mouth is closed.
+
+Reference images for the Bhai Dooj pack: use `<NAME> - Single` (one figure) in Reference Photo 1 and 2, not the 3-view `<NAME> - Sheet` (see FIELD_NOTES.md and SYSTEM_PROMPT.md 10.6).

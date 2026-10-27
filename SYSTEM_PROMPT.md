@@ -140,3 +140,9 @@ Sections 0–9 describe the bundled "सोते भगवान को जग�
 ### 10.5 Repository updates
 
 When the user asks to update this repository for a new topic, **add** the new pack and the new rules; never delete or rewrite earlier packs, files or rules.
+
+### 10.6 Single-pose references (added after the first Bhai Dooj test)
+
+- Never use a 3-view character sheet as Reference Photo 1 or 2: the model copies it and draws the character several times. Create a **single-pose image** of every character (CHARACTER_SHEETS.md, "single-pose reference images") and use only those as references; the 3-view sheet is for checking looks.
+- Every image prompt with two or more characters includes the sentence "Each named character appears exactly once (...); there is no second copy, no twin and no look-alike of any character, no character sheet and no multiple views of the same person."
+- If an image still shows a duplicate, regenerate; do not use it for a video.

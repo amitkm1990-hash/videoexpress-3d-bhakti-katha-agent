@@ -20,3 +20,12 @@ These notes override older text in the other files where they disagree.
 
 ## Length
 - The 61-clip ledger adds up to about 8 minutes, not 6. Trim clips or lines if 6 minutes is a hard limit.
+
+## Bhai Dooj run: duplicate characters and the fix
+
+- First clip test: with the 3-view sheets of Jamuni and Bholu as Reference Photo 1 and 2, all four variants (two attempts) showed **two Jamunis plus Bholu**, even with "exactly 2 characters" and "exactly one girl" in the prompt. The model copies the repeated figure on the sheet.
+- Fix: make a **single-pose image** of each character (text-only Create Image with Consistent Character OFF, "exactly one figure", one front view) and use those as the references. With Jamuni-Single + Bholu-Single the same clip gave exactly two characters in both variants.
+- Image prompts for 2+ characters also carry: "Each named character appears exactly once (...); there is no second copy, no twin and no look-alike of any character, no character sheet and no multiple views of the same person."
+- VideoExpress does not ask for a name when saving an image; recognise images by thumbnail and by order (newest first). In the reference picker, open the My AI Images folder with a single click, then scroll; selecting an image and pressing Choose fills the slot.
+- Narrator clips: tick Advanced Mode, **Video Only (No Sound)** and **Manual Video Length**, and keep Automatically enhance my video prompt OFF.
+- Image variants can take 60 to 90 s to appear; wait, do not resubmit.
